@@ -27,4 +27,4 @@ while isPlay == "Y" or isPlay=="y":
     start()
     print(f"Чи хочете ви пограти ще? (Y/N)")
     isPlay = input()
-print(f"Бувайте!")
+print(f"Бувайте! Чекаємо Вас знову!")
