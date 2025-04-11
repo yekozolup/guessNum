@@ -11,7 +11,7 @@ def start():
         userNum = int(input())
         if userNum == randNum:
             print(f"Ви ввели правильне число!")
-            print(f"Ви супер!")
+            print(f"Вітаємо Вас!")
             break
         elif countStep == 3:
             print(f"Ви програли :(")
@@ -27,4 +27,4 @@ while isPlay == "Y" or isPlay=="y":
     start()
     print(f"Чи хочете ви пограти ще? (Y/N)")
     isPlay = input()
-print(f"Бувайте!")
+print(f"Бувайте! Чекаємо Вас знову!")
