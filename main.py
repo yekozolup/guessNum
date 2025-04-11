@@ -11,6 +11,7 @@ def start():
         userNum = int(input())
         if userNum == randNum:
             print(f"Ви ввели правильне число!")
+            print(f"Вітаємо Вас!")
             break
         elif countStep == 3:
             print(f"Ви програли :(")
